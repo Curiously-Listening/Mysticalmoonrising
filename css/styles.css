@@ -1,0 +1,287 @@
+.title {
+  color: white;
+  font-family: 'Satisfy', cursive;
+  position: absolute;
+  left: 6em;
+  top: 2px;
+  bottom: 90%;
+  font-size: 2em;
+}
+
+hr {
+  border: 10px solid #241663;
+  border-radius: 5px;
+}
+
+/*--------------BODY-----------------*/
+.body-1 {
+  color: white;
+  font-family: 'Crimson Text', serif;
+  margin: auto;
+  width: 10em;
+  display: inline;
+  font-size: 1.3em;
+}
+
+.body-2 {
+  text-align: center;
+  margin: auto;
+  border-style: hidden dotted dotted dotted;
+  color: #5eb7b7;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+}
+
+.body-3 {
+  text-align: center;
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+}
+
+.body-4 {
+  text-align: center;
+  list-style: georgian inside url('/non-existent.svg');
+  color: #5eb7b7;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+}
+
+.body-5 {
+  text-align: center;
+  list-style: georgian inside url('/non-existent.svg');
+  color: #5eb7b7;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+}
+
+.body-6 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.3em;
+  color: #5eb7b7;
+}
+
+/*---------------HEADER-------------*/
+.header-0 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 11.5em;
+  bottom: 29.5em;
+  padding-top: 2%;
+  font-size: 1em;
+}
+
+.header-1 {
+  color: #010059;
+  font-family: 'Crimson Text', serif;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 3%;
+}
+
+.header-2 {
+  text-align: center;
+  margin: auto;
+  border-style: dotted dotted hidden dotted;
+  color: #5eb7b7;
+}
+
+.header-3 {
+  text-align: center;
+  color: white;
+  font-family: 'Crimson Text', serif;
+}
+
+.header-4 {
+  text-align: center;
+  color: #52437b;
+}
+
+.header-5 {
+  text-align: center;
+  color: #52437b;
+}
+
+.header-6 {
+  text-align: center;
+  color: #52437b;
+}
+
+/*-----------BOX CONTAINER--------------*/
+.box-container-0 {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 4px solid #5eb7b7;
+  background: #010059;
+}
+
+.box-container-1 {
+  width: 60%;
+  height: auto;
+  padding: 4%;
+  border: 10px solid #5eb7b7;
+  background-color: #010059;
+  margin: auto;
+}
+
+.box-container-2 {
+  margin: 80px;
+}
+
+.box-container-3 {
+  background-color: #010059;
+  width: 50%;
+  height: 30%;
+  padding: 50px;
+  border: 10px solid #5eb7b7;
+  margin: auto;
+}
+
+/*-----------------IMAGES----------------*/
+.crystal-ball-left {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 10em;
+  top: 120em;
+  display: block;
+}
+
+.crystal-ball-right {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 60em;
+  top: 120em;
+  display: block;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  left: 5em;
+  bottom: 31em;
+  border-radius: 8px;
+}
+
+.hand {
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #010059;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #a05f96;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+.contact-header {
+  color: white;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+}
+
+.contact-info {
+  color: white;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+}
+
+.price-list {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+  list-style: georgian inside url('/non-existent.svg');
+}
+
+.info-reads {
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+  font-family: 'Crimson Text', serif;
+}
+
+.about-us {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: 'Crimson Text', serif;
+}
+
+.deff {
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Crimson Text', serif;
+  list-style: georgian inside url('/non-existent.svg');
+}
+
+.p-2 {
+  text-align: center;
+  color: #a05f96;
+  font-size: 3em;
+  font-family: 'Crimson Text', serif;
+  background-color: #010059;
+}
